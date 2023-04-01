@@ -1,4 +1,10 @@
-# UnOfficial YOLOv7 - Adding Gradient Accumulation for Low-RAM Environments
+# YOLOv7 with some added functionality
+
+### Additions:
+- (In progress) Gradient accumulation for low-RAM training environments (not all of us can afford data centers lol)
+- more coming soon!
+
+(below's a clone of the official README)
 
 Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)
 
