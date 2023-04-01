@@ -378,6 +378,9 @@ def train(hyp, opt, device, tb_writer=None):
                 optimizer.zero_grad()
                 if ema:
                     ema.update(model)
+                print(ni, "--- UPDATING GRADIENTS --- (every ", accumulate, " steps)")
+            else:
+                print(ni, ": Accumulating ...")
 
             # Print
             if rank in [-1, 0]:
